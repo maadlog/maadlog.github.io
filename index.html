@@ -1,10 +1,40 @@
 <!DOCTYPE html>
+<html ng-app="portfolio">
 <head>
+
+    <link rel="stylesheet" type="text/css" href="js/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style-basic.css">
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
 </head>
-<body>
-    <img src="./res/profile.jpg" height="250" width="250">
-    <p>I really like muffins</p>
+<body ng-controller="portfolioCtrl as portfolio">
+    <div style="height: 20px"></div>
+    <img src="./res/profile.jpg" height="200" width="200" class="img-circle img-thumbnail">
+    <br>
+
+    <div class="col-md-4" ng-repeat="proj in portfolio.projects">
+        <div class="panel panel-default text-center" >
+            <div class="panel-heading">
+                {{proj.title}}
+            </div>
+            <div class="panel-body">
+                <p>description</p>
+            </div>
+            <div class="panel-footer plan">
+                <p>image</p>
+                <button class="btn btn-lg" onclick="puto()">Go To Source</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
     <input type="email" placeholder="Email">
-    <input type="submit">
+    <input class="btn btn-lg" type="submit">
+
 </body>
+</html>
