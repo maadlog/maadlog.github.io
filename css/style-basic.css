@@ -65,7 +65,7 @@ curriculum{
     25% {top: +10px;}
     50% {top: -10px;}
     75% {top: +10px;}
-    100% {top: 0px;}
+    100% {top: 0;}
 }
 
 .animatedPic{
