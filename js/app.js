@@ -1,7 +1,7 @@
 (function(){
     var app = angular.module('portfolio',[]);
 
-    var projectGet = ['$http',function($http) {
+    app.controller("portfolioCtrl",['$http',function($http) {
 
         var portfolio = this;
 
@@ -10,9 +10,18 @@
                 portfolio.projects = response.data.projects;
 
             });
-    }];
+    }]);
 
-    app.controller("portfolioCtrl",projectGet);
+    app.controller("educationCtrl",['$http',function($http) {
+
+        var portfolio = this;
+
+        $http.get('./res/education.json')
+            .then(function success(response) {
+                portfolio.places = response.data.places;
+
+            });
+    }]);
 
     app.directive("projects",function(){
         return{
@@ -21,5 +30,11 @@
             };
     });
 
+    app.directive("curriculum",function(){
+        return{
+            restrict:'E',
+            templateUrl:'./html/curriculum.html'
+        };
+    });
 
 })();

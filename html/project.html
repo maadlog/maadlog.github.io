@@ -1,5 +1,5 @@
-<div class="col-md-4" ng-repeat="proj in portfolio.projects" style="height: 500px">
-    <div class="panel panel-default text-center vertical-center" >
+<div class="col-md-4" ng-repeat="proj in portfolio.projects">
+    <div class="panel panel-default text-center" >
         <div class="panel-heading">
             {{proj.title}}
         </div>
@@ -9,7 +9,8 @@
         <div class="panel-footer plan">
             <img ng-src={{proj.image}} height="200px" >
             <br>
-            <a ng-show="proj.url" class="btn" ng-href="{{proj.url}}">Go To Source</a>
+            <a ng-show="proj.url" class="btn" ng-href="{{proj.url}}">Go To Home</a>
+            <a ng-show="proj.source" class="btn" ng-href="{{proj.source}}">Go To Source</a>
         </div>
     </div>
 </div>

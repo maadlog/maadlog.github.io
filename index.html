@@ -2,7 +2,12 @@
 <html ng-app="portfolio">
 <head>
 
+    <title>Maadlog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" type="text/css" href="js/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
@@ -10,19 +15,44 @@
 
     <script src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
 
 </head>
 <body>
-    <div id="main-banner">
-        <img src="./res/profile.jpg" height="200" width="200" class="img-rounded vertical-center">
+
+    <!-- Header -->
+    <div class="container-fluid bg-1 text-center">
+        <img id="profile" src="./res/profile.jpg" class="img-responsive img-rounded margin" style="display:inline" width="150" height="150">
+        <h2>Martin Adrián Loguancio</h2>
+        <h3>Developer - Engineering Student: UTN FRBA</h3>
     </div>
 
-    <div>
+    <!-- Description -->
+    <div class="container-fluid bg-2 text-center">
+        <h3 class="margin">What Am I?</h3>
+        <p>Engineering Student Since 2012 - Computer Graphics Enthusiast - Devoted to learn new things and experience new ways in programming.</p>
+        <p>Musical tastes included but no limited to: Jazz, Swing, Fusion, Metal, Progressive and Rock</p>
+
+        <a href="#" class="btn btn-default" id="CV">
+            <span class="glyphicon glyphicon-education"></span> Education
+        </a><br>
+        <curriculum class="container-fluid" ></curriculum>
+
+    </div>
+
+    <!-- Projects -->
+    <div class="container-fluid bg-3 text-center">
+        <h3 class="margin">Projects</h3><br>
         <projects ng-controller="portfolioCtrl as portfolio"></projects>
     </div>
 
-    <input type="email" placeholder="Email">
-    <input class="btn btn-lg" type="submit">
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>Contact: <a href="mailto:martin.loguancio@gmail.com?Subject=Contact" target="_top">martin.loguancio@gmail.com</a></p>
+        <a href="https://github.com/maadlog"> GitHub </a>
+    </footer>
+
+
 
 </body>
 </html>

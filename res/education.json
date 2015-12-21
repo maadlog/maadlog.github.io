@@ -1,0 +1,10 @@
+{"places":[
+  { "title":"E.E.T. Nª4 - I Brigada Aerea",
+    "image":"./res/eetn4.jpg",
+    "description":"Electronic Technician - Finished Studies in December 2011"
+  },
+  { "title":"UTN F.R.B.A.",
+    "image":"./res/utnba.jpg",
+    "description":"Currently in the Systems Engineering Career - Started Studies in January 2012"
+  }
+]}
