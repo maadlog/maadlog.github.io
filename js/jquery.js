@@ -9,7 +9,6 @@ $(document).ready(function(){
         $(this).toggleClass('animatedPic');
     };
 
-    $('#profile').on('mouseenter',toggleAnimation);
-    $('#profile').on('mouseleave',toggleAnimation);
+    $('#profile').on('mouseenter',toggleAnimation).on('mouseleave',toggleAnimation);
 
 });
