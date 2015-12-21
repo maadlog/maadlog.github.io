@@ -1,0 +1,17 @@
+{"projects":[
+  { "title":"Project Hades",
+    "image":"./res/hades.jpg",
+    "description":"This is one hell of a project",
+    "url":"https://en.wikipedia.org/wiki/Hades"
+  },
+  { "title":"Project Hermes",
+    "image":"./res/hermes.jpg",
+    "description":"Delivery Fast and Efficiently",
+    "url":"http://megamitensei.wikia.com/wiki/Trismegistus"
+  },
+  { "title":"Project Zeus",
+    "image":"./res/zeus.jpg",
+    "description":"Will fuck a duck just for fun",
+    "url":"https://en.wikipedia.org/wiki/Zeus"
+  }
+]}

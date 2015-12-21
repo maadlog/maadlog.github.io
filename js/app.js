@@ -1,14 +1,25 @@
 (function(){
     var app = angular.module('portfolio',[]);
 
-    app.controller("portfolioCtrl",['$http',function($http) {
+    var projectGet = ['$http',function($http) {
 
         var portfolio = this;
 
-        $http.get('http://maadlog.github.io/js/projects.json')
+        $http.get('./res/projects.json')
             .then(function success(response) {
                 portfolio.projects = response.data.projects;
 
-        });
-    }]);
+            });
+    }];
+
+    app.controller("portfolioCtrl",projectGet);
+
+    app.directive("projects",function(){
+        return{
+            restrict:'E',
+            templateUrl:'./html/project.html'
+            };
+    });
+
+
 })();
