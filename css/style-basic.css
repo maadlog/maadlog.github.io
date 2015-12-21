@@ -1,4 +1,4 @@
-body {
+#portfolio {
     text-align: center;
     background: url(../res/back.jpg);
     color: black;
@@ -12,7 +12,7 @@ body {
     transform: translateY(-50%);
 }
 
-h2{
+#mainName{
     text-shadow: 2px 2px 5px black;
 }
 
