@@ -33,58 +33,23 @@
         <p>Engineering Student Since 2012 - Computer Graphics Enthusiast - Devoted to learning new things and experience new ways in programming.</p>
         <p>Musical tastes included but no limited to: Jazz, Swing, Fusion, Metal, Progressive and Rock</p>
 
-        <a href='#' class="btn btn-default" id="CV">
-            <span class="glyphicon glyphicon-education"></span> Education
-        </a><br>
-        <curriculum class="container-fluid" ></curriculum>
-
-    </div>
-
-    <!-- Photos Carousel -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="res/design.jpg">
-                <div class="carousel-caption">
-                    <h3>Design</h3>
-                    <p>Focus on well-designed/experience-oriented software, built to meet client necessities</p>
-                </div>
+        <ul class="nav nav-pills nav-justified">
+            <li class="active custom-color"><a data-toggle="pill" href="#CV"><span class="glyphicon glyphicon-education"></span> Education</a></li>
+            <li class="custom-color"><a data-toggle="pill" href="#Tools"> <span class="glyphicon glyphicon-wrench"></span> Abilities</a></li>
+            <li class="custom-color"><a data-toggle="pill" href="#Experience"> <span class="glyphicon glyphicon-certificate"></span> Experience</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="CV" class="tab-pane fade in active">
+                <curriculum-vitae></curriculum-vitae>
             </div>
-
-            <div class="item">
-                <img src="res/experience.jpg">
-                <div class="carousel-caption">
-                    <h3>Experience</h3>
-                    <p>Previous Contractors include: Advanced Software - Oracle - Plus IT. </p>
-                </div>
+            <div id="Tools" class="tab-pane fade">
+                <tools></tools>
             </div>
-
-            <div class="item">
-                <img src="res/tools.jpg">
-                <div class="carousel-caption">
-                    <h3>Tools</h3>
-                    <p>Proficency in popular tools like Cobol, Perfored Cards, and Hitting Rocks with a Stick</p>
-                </div>
+            <div id="Experience" class="tab-pane fade">
+                <experience></experience>
             </div>
         </div>
 
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 
     <!-- Projects -->

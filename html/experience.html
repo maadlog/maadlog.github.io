@@ -1,0 +1,8 @@
+<div style="padding-top: 30px" ng-controller="experienceCtrl as experience">
+    <div class="col-lg-4" ng-repeat="job in experience.jobs">
+        <h3> {{job.employer}} </h3>
+        <h1> {{job.position}} </h1>
+        <h6> From: {{job.from}} To: {{job.to}} </h6>
+        <p> {{job.responsabilities}} </p>
+    </div>
+</div>

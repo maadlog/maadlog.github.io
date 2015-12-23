@@ -1,6 +1,6 @@
 #portfolio {
     text-align: center;
-    background: url(../res/back.jpg);
+    background: url(../res/back.jpg) repeat;
     color: black;
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
@@ -55,11 +55,6 @@ curriculum{
     display: none;
 }
 
-#education {
-    border-radius: 25px;
-    border: 2px solid mediumslateblue;
-}
-
 @keyframes picBobble {
     0% {top: -10px;}
     25% {top: +10px;}
@@ -72,4 +67,9 @@ curriculum{
     position: relative;
     animation-name: picBobble;
     animation-duration: 0.5s;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:white;
+    background-color: #546792;
 }

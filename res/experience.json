@@ -1,0 +1,26 @@
+{"jobs":[
+  { "employer":"Plus IT",
+    "position":"Genexus Developer",
+    "from":"October 2014",
+    "to":"June 2015",
+    "responsabilities":"Web development using Genexus, with extensive SQL Databases management and Legacy systems integration. Maintaining of said systems, user support and quality assurance."
+  },
+  { "employer":"UTN FRBA",
+    "position":"Assistant Professor",
+    "from":"April 2014",
+    "to":"Present",
+    "responsabilities":"Assistant in several subjects, such as: Programming Paradigms (Programming basis and multi-paradigm lateral thinking), Computer Graphics Techniques (Bases of the Graphics programming, video-game design and construction, Graphics Pipeline in modern architectures) and Advanced Programming Techniques (Reflection, Hybrid Programming, Monadic Programming)"
+  },
+  { "employer":"Advanced Software",
+    "position":"Siebel Configurator",
+    "from":"August 2015",
+    "to":"Present",
+    "responsabilities":"Siebel CRM Configuration and EAI Integrations for national and latin america clients"
+  },
+  { "employer":"Advanced Software",
+    "position":"Web Developer",
+    "from":"December 2015",
+    "to":"Present",
+    "responsabilities":"Web applications development using .Net framework, C#, front-end using HTML5, CSS3, JS, and tools such as Angular.js and Bootstrap"
+  }
+]}
