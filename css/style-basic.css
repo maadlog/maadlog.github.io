@@ -73,3 +73,10 @@ curriculum{
     color:white;
     background-color: #546792;
 }
+
+#rickRoll{
+    display: none;
+    width: 420px;
+    height: 315px;
+    top: 10%;
+}

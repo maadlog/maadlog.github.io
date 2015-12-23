@@ -8,7 +8,12 @@ $(document).ready(function(){
         event.stopPropagation();
     });
 
-    $('[data-toggle="popover"]').popover(); //Initialize PopOvers.
+    $('#rickTrigger').on('click',function(event){
+        event.preventDefault();
+        event.stopPropagation();
+        $('#rickRoll').slideToggle();
+
+    })
 
     $('#profile').on('mouseenter',toggleAnimation).on('mouseleave',toggleAnimation).on('touchend',toggleAnimation);
 });
