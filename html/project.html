@@ -5,12 +5,14 @@
         </div>
         <div class="panel-body">
             <p>{{proj.description}}</p>
+
         </div>
         <div class="panel-footer plan">
             <img class="img-thumbnail" ng-src={{proj.image}} style="height:200px; alignment: center" >
             <br>
             <a ng-show="proj.url" class="btn" ng-href="{{proj.url}}">Go To Home</a>
             <a ng-show="proj.source" class="btn" ng-href="{{proj.source}}">Go To Source</a>
+            <h6 class="text-right"> As part of: {{proj.as}}</h6>
         </div>
     </div>
 </div>

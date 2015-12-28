@@ -1,18 +1,21 @@
 {"projects":[
   { "title":"Project Hades",
     "image":"./res/hades.jpg",
+    "as":"freelance",
     "description":"This is one hell of a project",
     "source":"https://en.wikipedia.org/wiki/Hades",
     "url":"https://en.wikipedia.org/wiki/Hades"
   },
   { "title":"Project Hermes",
     "image":"./res/hermes.jpg",
+    "as":"freelance",
     "description":"Delivery Fast and Efficiently",
     "source":"http://megamitensei.wikia.com/wiki/Trismegistus",
     "url":"http://megamitensei.wikia.com/wiki/Trismegistus"
   },
   { "title":"Project Zeus",
     "image":"./res/zeus.jpg",
+    "as":"freelance",
     "description":"Will fuck a duck just for fun",
     "source":"https://en.wikipedia.org/wiki/Zeus",
     "url":"https://en.wikipedia.org/wiki/Zeus"

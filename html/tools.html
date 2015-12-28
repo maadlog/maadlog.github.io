@@ -1,6 +1,6 @@
-<ul ng-controller="toolsCtrl as myTools">
-    <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2" ng-repeat="tool in myTools.tools">
-        <img class="img-rounded" style="height: 50px; width: 50px" ng-src={{tool.image}}>
+<div ng-controller="toolsCtrl as myTools">
+    <div class=" container-fluid col-xs-6 col-sm-3 col-md-2 col-lg-2" ng-repeat="tool in myTools.tools">
+        <img class="img-rounded" style="alignment: center; height: 50px; width: 50px;" ng-src={{tool.image}}>
         <p>{{tool.title}}</p>
     </div>
-</ul>
+</div>
