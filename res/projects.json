@@ -3,8 +3,7 @@
   "image":"./res/projs/maadlog.jpg",
   "as":"freelance",
   "description":"This very page, made to practice js library integrations - Work in Progress",
-  "source":"https://github.com/maadlog/maadlog.github.io",
-  "url":"https://maadlog.github.io"
+  "source":"https://github.com/maadlog/maadlog.github.io"
   },
   { "title":"DirecTV CRM",
     "image":"./res/projs/siebel.jpg",
