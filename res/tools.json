@@ -1,20 +1,20 @@
 {"tools":[
   { "title":"HTML",
-    "image":"http://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+    "image":"./res/tools/html.png"
   },
   { "title":"JS",
-    "image":"http://i.stack.imgur.com/Mmww2.png"
+    "image":"./res/tools/js.png"
   },
   { "title":"CSS",
-    "image":"http://www.unixstickers.com/image/data/stickers/css3/css3_unofficial_shaped.png"
+    "image":"./res/tools/css.png"
   },
   { "title":"Bootstrap",
-    "image":"https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/ico/apple-touch-icon-144-precomposed.png"
+    "image":"./res/tools/bootstrap.png"
   },
   { "title":"Angular.Js",
-    "image":"http://www.typescriptlang.org/content/images/logos/Angular/angular-shield-logo-small.png"
+    "image":"./res/tools/angular.png"
   },
   { "title":"JQuery",
-    "image":"http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif"
+    "image":"./res/tools/jQuery.gif"
   }
 ]}
